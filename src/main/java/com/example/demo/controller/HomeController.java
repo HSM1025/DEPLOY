@@ -11,7 +11,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String index(){
-        //TEST
+        //TESTS
         log.info("HELLO WORLD!");
         return "index";
     }
